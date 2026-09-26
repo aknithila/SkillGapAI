@@ -42,8 +42,8 @@ Tech jargon scares beginners. Every underlined technical word in the app (SQL, A
 You need [Node.js](https://nodejs.org) 18 or newer, and a free Gemini API key from [Google AI Studio](https://aistudio.google.com/apikey).
 
 ```bash
-git clone https://github.com/<your-username>/skillgap-ai.git
-cd skillgap-ai
+git clone https://github.com/aknithila/SkillGapAI.git
+cd SkillGapAI
 npm install
 cp .env.local.example .env.local   # then paste your key after GEMINI_API_KEY=
 npm run dev
