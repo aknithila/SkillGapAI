@@ -1,0 +1,53 @@
+[
+  {
+    "id": "data-analyst",
+    "title": "Data Analyst",
+    "description": "Turns raw business data into clear insights. Cleans data, writes SQL queries, builds dashboards, and explains trends to non-technical teams so they can make better decisions.",
+    "requiredSkills": [
+      { "name": "Excel / Spreadsheets", "category": "Tools", "level": 4, "weight": 3 },
+      { "name": "SQL", "category": "Technical", "level": 4, "weight": 3 },
+      { "name": "Python (Pandas)", "category": "Technical", "level": 3, "weight": 2 },
+      { "name": "Statistics", "category": "Analytical", "level": 3, "weight": 3 },
+      { "name": "Data Cleaning", "category": "Technical", "level": 4, "weight": 2 },
+      { "name": "Data Visualization", "category": "Analytical", "level": 4, "weight": 3 },
+      { "name": "Power BI / Tableau", "category": "Tools", "level": 3, "weight": 2 },
+      { "name": "Business Understanding", "category": "Domain", "level": 3, "weight": 2 },
+      { "name": "Communication & Storytelling", "category": "Soft skills", "level": 4, "weight": 2 },
+      { "name": "Problem Solving", "category": "Soft skills", "level": 3, "weight": 1 }
+    ]
+  },
+  {
+    "id": "frontend-developer",
+    "title": "Frontend Developer",
+    "description": "Builds the part of websites and apps that users see and click. Turns designs into fast, accessible, responsive interfaces.",
+    "requiredSkills": [
+      { "name": "HTML", "category": "Technical", "level": 4, "weight": 2 },
+      { "name": "CSS", "category": "Technical", "level": 4, "weight": 2 },
+      { "name": "JavaScript", "category": "Technical", "level": 4, "weight": 3 },
+      { "name": "TypeScript", "category": "Technical", "level": 3, "weight": 2 },
+      { "name": "React", "category": "Frameworks", "level": 4, "weight": 3 },
+      { "name": "Responsive Design", "category": "Technical", "level": 3, "weight": 2 },
+      { "name": "Git & GitHub", "category": "Tools", "level": 3, "weight": 2 },
+      { "name": "REST APIs", "category": "Technical", "level": 3, "weight": 2 },
+      { "name": "Accessibility", "category": "Technical", "level": 2, "weight": 1 },
+      { "name": "Testing", "category": "Technical", "level": 2, "weight": 1 }
+    ]
+  },
+  {
+    "id": "cloud-devops",
+    "title": "Cloud / DevOps Engineer",
+    "description": "Keeps software running reliably in the cloud. Automates building, testing and deploying code, and manages servers, containers and monitoring.",
+    "requiredSkills": [
+      { "name": "Linux", "category": "Technical", "level": 4, "weight": 3 },
+      { "name": "Networking Basics", "category": "Technical", "level": 3, "weight": 2 },
+      { "name": "Bash Scripting", "category": "Technical", "level": 3, "weight": 2 },
+      { "name": "Python", "category": "Technical", "level": 3, "weight": 1 },
+      { "name": "Git & GitHub", "category": "Tools", "level": 3, "weight": 2 },
+      { "name": "Docker", "category": "Tools", "level": 4, "weight": 3 },
+      { "name": "Kubernetes", "category": "Tools", "level": 3, "weight": 2 },
+      { "name": "AWS / Azure / GCP", "category": "Cloud", "level": 4, "weight": 3 },
+      { "name": "CI/CD Pipelines", "category": "Technical", "level": 3, "weight": 3 },
+      { "name": "Monitoring & Logging", "category": "Technical", "level": 3, "weight": 1 }
+    ]
+  }
+]

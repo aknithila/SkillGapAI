@@ -1,0 +1,24 @@
+{
+  "questions": [
+    "Let's start simple! In your own words, what does SQL do, and when would a Data Analyst use it?",
+    "Nice. Imagine you have a table of orders. How would you find the total sales for each city?",
+    "Suppose a dataset has missing values and duplicate rows. What steps would you take to clean it before making a dashboard?",
+    "Tell me about a time you had to learn something new quickly. How did you approach it?",
+    "Last one! Describe a time you explained numbers or a report to someone who wasn't comfortable with data. How did you make it clear?"
+  ],
+  "feedback": "Thanks for your answer! Tip: try giving a small, specific example — interviewers remember concrete stories.",
+  "report": {
+    "overallScore": 68,
+    "strengths": [
+      "Clear, polite communication",
+      "Good real-life examples from your previous work",
+      "Positive attitude towards learning new tools"
+    ],
+    "improvements": [
+      "Use correct technical words, like GROUP BY and JOIN, in SQL answers",
+      "Structure behavioral answers with the STAR method: Situation, Task, Action, Result",
+      "Mention a number or result to show your impact"
+    ],
+    "skillsToPractice": ["SQL", "Data Cleaning", "Data Visualization"]
+  }
+}

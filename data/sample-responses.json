@@ -1,0 +1,98 @@
+{
+  "analysis": {
+    "readiness": 42,
+    "extractedSkills": [
+      { "name": "Excel / Spreadsheets", "level": 3 },
+      { "name": "Business Understanding", "level": 4 },
+      { "name": "Communication & Storytelling", "level": 3 },
+      { "name": "Statistics", "level": 2 },
+      { "name": "Problem Solving", "level": 3 },
+      { "name": "Data Visualization", "level": 2 },
+      { "name": "SQL", "level": 1 }
+    ],
+    "gaps": [
+      { "skill": "SQL", "current": 1, "required": 4, "priority": "High", "reason": "SQL is used daily to pull data from company databases. Almost every Data Analyst job posting asks for it." },
+      { "skill": "Data Visualization", "current": 2, "required": 4, "priority": "High", "reason": "You need to turn numbers into charts that managers understand quickly." },
+      { "skill": "Python (Pandas)", "current": 0, "required": 3, "priority": "Medium", "reason": "Pandas helps clean and analyse data too large or messy for Excel." },
+      { "skill": "Power BI / Tableau", "current": 0, "required": 3, "priority": "Medium", "reason": "Most companies share insights through dashboards built in these tools." },
+      { "skill": "Data Cleaning", "current": 2, "required": 4, "priority": "Medium", "reason": "Real data has missing values and errors; analysts spend a lot of time fixing it." },
+      { "skill": "Statistics", "current": 2, "required": 3, "priority": "Low", "reason": "Your B.Com statistics paper is a good base; you need averages, spread and simple hypothesis tests." }
+    ],
+    "transferable": [
+      { "skill": "Accounting & financial statements", "relevance": "You already read balance sheets and P&L — exactly the kind of business data analysts work with." },
+      { "skill": "Excel from Tally/accounting work", "relevance": "VLOOKUP, pivot tables and formulas are the first tools most analysts use." },
+      { "skill": "Business communication", "relevance": "Explaining numbers to non-finance people is the storytelling part of analytics." }
+    ]
+  },
+  "roadmap": {
+    "weeks": [
+      {
+        "week": 1,
+        "focus": "SQL basics: SELECT, WHERE, GROUP BY, JOIN",
+        "resources": ["SQLBolt interactive lessons (sqlbolt.com)", "Mode SQL Tutorial for Data Analysis", "Kaggle Learn: Intro to SQL"],
+        "project": {
+          "id": "p1-sales-sql",
+          "title": "Retail Sales SQL Report",
+          "brief": "Using a sample retail sales database (orders, customers, products), write SQL queries that answer: top 5 products by revenue, monthly sales trend, and the city with the most repeat customers. Submit your queries and a short explanation of each result.",
+          "criteria": ["Queries run correctly and return the right answers", "Uses GROUP BY and JOIN appropriately", "Results are explained in plain business language"],
+          "skill": "SQL"
+        }
+      },
+      {
+        "week": 2,
+        "focus": "Cleaning and exploring data with Python Pandas",
+        "resources": ["Kaggle Learn: Pandas", "Corey Schafer – Pandas YouTube series", "Pandas official 10 minutes to pandas guide"],
+        "project": {
+          "id": "p2-clean-expenses",
+          "title": "Clean a Messy Expenses Dataset",
+          "brief": "Take a messy company expenses CSV (missing values, duplicate rows, inconsistent category names, dates in mixed formats) and clean it using Pandas. Then report total spend by category and month.",
+          "criteria": ["Handles missing values and duplicates sensibly", "Standardises categories and dates", "Final summary numbers are correct and clearly presented"],
+          "skill": "Data Cleaning"
+        }
+      },
+      {
+        "week": 3,
+        "focus": "Data visualization and dashboards in Power BI",
+        "resources": ["Microsoft Learn: Get started with Power BI", "Storytelling with Data (book, Cole Nussbaumer Knaflic)", "Guy in a Cube YouTube channel"],
+        "project": {
+          "id": "p3-sales-dashboard",
+          "title": "Sales Performance Dashboard",
+          "brief": "Build a one-page Power BI (or Tableau) dashboard for a sales manager showing revenue trend, top regions, top products and a KPI card for month-over-month growth. Write 3 insights the manager should act on.",
+          "criteria": ["Chart types fit the data", "Dashboard is clean and easy to read in 10 seconds", "Insights are specific and actionable"],
+          "skill": "Data Visualization"
+        }
+      },
+      {
+        "week": 4,
+        "focus": "Statistics for analysts + end-to-end case study",
+        "resources": ["Khan Academy: Statistics and Probability", "StatQuest with Josh Starmer (YouTube)", "Google Data Analytics Certificate – case study module"],
+        "project": {
+          "id": "p4-capstone",
+          "title": "Capstone: Why Did Profits Drop?",
+          "brief": "A small company's profit fell 15% last quarter. Using the provided sales and cost data, find the likely causes using SQL, Pandas and charts, and present your findings as a 5-slide summary with recommendations.",
+          "criteria": ["Uses data to support each claim", "Applies basic statistics correctly (averages, % change, comparisons)", "Clear story with realistic recommendations"],
+          "skill": "Statistics"
+        }
+      }
+    ]
+  },
+  "evaluation": {
+    "score": 74,
+    "rubric": [
+      { "criterion": "Queries run correctly and return the right answers", "score": 8, "comment": "Top products and monthly trend queries are correct. The repeat-customer query counts orders instead of distinct customers." },
+      { "criterion": "Uses GROUP BY and JOIN appropriately", "score": 8, "comment": "Good use of INNER JOIN between orders and products. Consider LEFT JOIN to include cities with zero repeat customers." },
+      { "criterion": "Results are explained in plain business language", "score": 6, "comment": "Explanations restate the numbers but don't say what the business should do with them." }
+    ],
+    "strengths": [
+      "Clean, readable SQL with sensible aliases",
+      "Correct aggregation with SUM and GROUP BY",
+      "Good instinct to sort and limit results for the top 5"
+    ],
+    "improvements": [
+      "Use COUNT(DISTINCT customer_id) when counting unique customers",
+      "Add one 'so what?' sentence after each result, e.g. 'Stock more of product X before festive months'",
+      "Format revenue numbers with thousand separators in the final report"
+    ],
+    "verdict": "Demonstrated"
+  }
+}

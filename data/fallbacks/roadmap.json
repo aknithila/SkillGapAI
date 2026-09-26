@@ -1,0 +1,84 @@
+{
+  "weeks": [
+    {
+      "week": 1,
+      "focus": "SQL basics: SELECT, WHERE, GROUP BY, JOIN",
+      "resources": [
+        "SQLBolt interactive lessons (sqlbolt.com)",
+        "Mode SQL Tutorial for Data Analysis",
+        "Kaggle Learn: Intro to SQL"
+      ],
+      "project": {
+        "id": "p1-sales-sql",
+        "title": "Retail Sales SQL Report",
+        "brief": "Using a sample retail sales database (orders, customers, products), write SQL queries that answer: top 5 products by revenue, monthly sales trend, and the city with the most repeat customers. Submit your queries and a short explanation of each result.",
+        "criteria": [
+          "Queries run correctly and return the right answers",
+          "Uses GROUP BY and JOIN appropriately",
+          "Results are explained in plain business language"
+        ],
+        "skill": "SQL"
+      }
+    },
+    {
+      "week": 2,
+      "focus": "Cleaning and exploring data with Python Pandas",
+      "resources": [
+        "Kaggle Learn: Pandas",
+        "Corey Schafer – Pandas YouTube series",
+        "Pandas official 10 minutes to pandas guide"
+      ],
+      "project": {
+        "id": "p2-clean-expenses",
+        "title": "Clean a Messy Expenses Dataset",
+        "brief": "Take a messy company expenses CSV (missing values, duplicate rows, inconsistent category names, dates in mixed formats) and clean it using Pandas. Then report total spend by category and month.",
+        "criteria": [
+          "Handles missing values and duplicates sensibly",
+          "Standardises categories and dates",
+          "Final summary numbers are correct and clearly presented"
+        ],
+        "skill": "Data Cleaning"
+      }
+    },
+    {
+      "week": 3,
+      "focus": "Data visualization and dashboards in Power BI",
+      "resources": [
+        "Microsoft Learn: Get started with Power BI",
+        "Storytelling with Data (book, Cole Nussbaumer Knaflic)",
+        "Guy in a Cube YouTube channel"
+      ],
+      "project": {
+        "id": "p3-sales-dashboard",
+        "title": "Sales Performance Dashboard",
+        "brief": "Build a one-page Power BI (or Tableau) dashboard for a sales manager showing revenue trend, top regions, top products and a KPI card for month-over-month growth. Write 3 insights the manager should act on.",
+        "criteria": [
+          "Chart types fit the data",
+          "Dashboard is clean and easy to read in 10 seconds",
+          "Insights are specific and actionable"
+        ],
+        "skill": "Data Visualization"
+      }
+    },
+    {
+      "week": 4,
+      "focus": "Statistics for analysts + end-to-end case study",
+      "resources": [
+        "Khan Academy: Statistics and Probability",
+        "StatQuest with Josh Starmer (YouTube)",
+        "Google Data Analytics Certificate – case study module"
+      ],
+      "project": {
+        "id": "p4-capstone",
+        "title": "Capstone: Why Did Profits Drop?",
+        "brief": "A small company's profit fell 15% last quarter. Using the provided sales and cost data, find the likely causes using SQL, Pandas and charts, and present your findings as a 5-slide summary with recommendations.",
+        "criteria": [
+          "Uses data to support each claim",
+          "Applies basic statistics correctly (averages, % change, comparisons)",
+          "Clear story with realistic recommendations"
+        ],
+        "skill": "Statistics"
+      }
+    }
+  ]
+}

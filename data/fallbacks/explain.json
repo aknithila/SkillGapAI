@@ -1,0 +1,6 @@
+{
+  "term": "SQL",
+  "simple": "SQL is a language you use to ask a database questions, like \"show me all orders from Chennai last month\".",
+  "analogy": "It is like asking the shopkeeper at a kirana store: \"Anna, give me all the Parle-G packets that came this week.\" The shopkeeper (database) finds exactly what you asked for.",
+  "example": "SELECT name FROM customers WHERE city = 'Chennai'; lists every customer from Chennai."
+}

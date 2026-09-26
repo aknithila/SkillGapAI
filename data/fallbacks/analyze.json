@@ -1,0 +1,91 @@
+{
+  "readiness": 42,
+  "extractedSkills": [
+    {
+      "name": "Excel / Spreadsheets",
+      "level": 3
+    },
+    {
+      "name": "Business Understanding",
+      "level": 4
+    },
+    {
+      "name": "Communication & Storytelling",
+      "level": 3
+    },
+    {
+      "name": "Statistics",
+      "level": 2
+    },
+    {
+      "name": "Problem Solving",
+      "level": 3
+    },
+    {
+      "name": "Data Visualization",
+      "level": 2
+    },
+    {
+      "name": "SQL",
+      "level": 1
+    }
+  ],
+  "gaps": [
+    {
+      "skill": "SQL",
+      "current": 1,
+      "required": 4,
+      "priority": "High",
+      "reason": "SQL is used daily to pull data from company databases. Almost every Data Analyst job posting asks for it."
+    },
+    {
+      "skill": "Data Visualization",
+      "current": 2,
+      "required": 4,
+      "priority": "High",
+      "reason": "You need to turn numbers into charts that managers understand quickly."
+    },
+    {
+      "skill": "Python (Pandas)",
+      "current": 0,
+      "required": 3,
+      "priority": "Medium",
+      "reason": "Pandas helps clean and analyse data too large or messy for Excel."
+    },
+    {
+      "skill": "Power BI / Tableau",
+      "current": 0,
+      "required": 3,
+      "priority": "Medium",
+      "reason": "Most companies share insights through dashboards built in these tools."
+    },
+    {
+      "skill": "Data Cleaning",
+      "current": 2,
+      "required": 4,
+      "priority": "Medium",
+      "reason": "Real data has missing values and errors; analysts spend a lot of time fixing it."
+    },
+    {
+      "skill": "Statistics",
+      "current": 2,
+      "required": 3,
+      "priority": "Low",
+      "reason": "Your B.Com statistics paper is a good base; you need averages, spread and simple hypothesis tests."
+    }
+  ],
+  "transferable": [
+    {
+      "skill": "Accounting & financial statements",
+      "relevance": "You already read balance sheets and P&L — exactly the kind of business data analysts work with."
+    },
+    {
+      "skill": "Excel from Tally/accounting work",
+      "relevance": "VLOOKUP, pivot tables and formulas are the first tools most analysts use."
+    },
+    {
+      "skill": "Business communication",
+      "relevance": "Explaining numbers to non-finance people is the storytelling part of analytics."
+    }
+  ]
+}

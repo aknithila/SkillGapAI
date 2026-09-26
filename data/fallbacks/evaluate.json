@@ -1,0 +1,31 @@
+{
+  "score": 74,
+  "rubric": [
+    {
+      "criterion": "Queries run correctly and return the right answers",
+      "score": 8,
+      "comment": "Top products and monthly trend queries are correct. The repeat-customer query counts orders instead of distinct customers."
+    },
+    {
+      "criterion": "Uses GROUP BY and JOIN appropriately",
+      "score": 8,
+      "comment": "Good use of INNER JOIN between orders and products. Consider LEFT JOIN to include cities with zero repeat customers."
+    },
+    {
+      "criterion": "Results are explained in plain business language",
+      "score": 6,
+      "comment": "Explanations restate the numbers but don't say what the business should do with them."
+    }
+  ],
+  "strengths": [
+    "Clean, readable SQL with sensible aliases",
+    "Correct aggregation with SUM and GROUP BY",
+    "Good instinct to sort and limit results for the top 5"
+  ],
+  "improvements": [
+    "Use COUNT(DISTINCT customer_id) when counting unique customers",
+    "Add one 'so what?' sentence after each result, e.g. 'Stock more of product X before festive months'",
+    "Format revenue numbers with thousand separators in the final report"
+  ],
+  "verdict": "Demonstrated"
+}
